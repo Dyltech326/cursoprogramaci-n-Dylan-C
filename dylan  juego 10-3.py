@@ -110,7 +110,14 @@ while Running:
                  if  playerX_change==pygame.K_LEFT:
                      playerX_change=-5
                  if event.key==pygame.K_RIGHT:
-                     playerX_change_chnge= 5
+                     playerX_change_= 5
+                     while running:
+                     screen.fill((0,0,0,))
+
+                     screen.bilt(bachground, (0,0))
+                     for event in pygame.event.get():
+                         id
+                     
     
     
 
